@@ -1,0 +1,59 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# SDR captures and generated data (huge, regenerate them)
+*.iq
+*.cu8
+*.cs8
+*.cfile
+*.raw
+*.bin
+*.wav
+synthetic*.iq
+t.iq
+
+# Local config and secrets
+.env
+.env.*
+*.local
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Logs and temp
+*.log
+*.tmp
