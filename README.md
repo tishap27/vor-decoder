@@ -1,0 +1,1 @@
+RTL-SDR VOR decoder, decodes the bearing from a VOR signal.
