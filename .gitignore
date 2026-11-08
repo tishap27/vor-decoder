@@ -56,4 +56,4 @@ ehthumbs.db
 
 # Logs and temp
 *.log
-*.tmp
+*.tmp"*.iq" 
