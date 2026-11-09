@@ -57,3 +57,5 @@ ehthumbs.db
 # Logs and temp
 *.log
 *.tmp"*.iq" 
+
+.venv-ci/
