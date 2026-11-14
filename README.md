@@ -1,6 +1,9 @@
 
 
 # VOR Decoder
+
+![CI](https://github.com/tishap27/vor-decoder/actions/workflows/ci.yml/badge.svg)
+
 RTL-SDR VOR decoder, decodes the bearing from a VOR signal.
 
 Status: decoder validated on synthetic signals. (YOW, 114.6 MHz) in progress.
@@ -18,7 +21,6 @@ The program also prints two checks every second. If both look right (about 0.3 a
 - `gen_synthetic.py`: simulates VOR capture with a known bearing
 - `test_synthetic.py`: round-trip tests at 7 bearings
 - `check_radial.py`: expected radial and distance from the YOW VOR to a GPS position
-- `plot_spectrum.py`: spectrum plot of the demodulated audio
 
 ## Usage
     pip install -r requirements.txt
